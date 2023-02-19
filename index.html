@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <nav class="navbar flex">
+        <div class="container flex">
+            <h2>Weather</h2>
+            <div class="navtext flex">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+            </div>
+        </div>
+    </nav>
+    <div class="content flex justifycontent alignitem">
+        <input id="input" placeholder="Search your city" type="search" class="" d="search">
+        <button type="submit" id="submit">Search</button>
+    </div>
+
+    <div class="content2">
+        <h1>Weather of <span id="cityName"></span></h1>
+        <div class="main flex">
+            <div class= "tempmain">
+                <h2>Temperature</h2>
+                <h1 class="value"><span id="temp"></span></h1>
+            </div>
+            <div class="windspeed">
+                <h2>Windspeed</h2>
+                <h1 class="value"><span id="wind"></span></h1>
+            </div>
+            <div class="humidity">
+                <h2>Humidity</h2>
+                <h1 class="value"><span id="humid"></span></h1>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>CopyRight &#169 2023 Weather</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
